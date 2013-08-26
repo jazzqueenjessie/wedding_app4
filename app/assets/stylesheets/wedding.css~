@@ -16,6 +16,7 @@
 	src: local("FanfareJF"), url( 'fonts/FanfareJF.ttf' ) format("truetype"); /* non-IE */  
 }
 
+
 body{ padding:0px; margin:0px; font-family:Georgia; min-width:900px; }
 /*background-image: url(/images/tree7.jpg); background-size: cover; background-repeat: no-repeat;*/ 
 
@@ -34,23 +35,25 @@ background-color: rgba(1, 1, 1, 0.8); color: rgba(1, 1, 1, 0.8);}
 #navigation a:hover { color:#F96; width:100%; } 
 
 
-
 /*BODY ARCHITECTURE*/
 #titlebar { height:100px; width:100%; 
 margin-left:17px; margin-top:50px;  
 padding-top:50px; padding-left:200px;
-
 background-color:#FFF; background-size: cover;
 font-family:KonTiki; font-size:80px; color:#F96; }
 
-#subtitle { height: 40px; width:100%; margin-left:17px;
-padding-top:10px; padding-left:200px; padding-right:150px;
-
-background-color: #F96;  background-size: cover;
+#subtitle { margin-left:17px; height: 50px; line-height: 50px; width: 100%;
+padding-left:200px; padding-right:0px;
+background-color: #F96; background-size: cover;
 font-family:FanfareJF; font-size:30px; color:#FFF;
--webkit-box-shadow: 0px 0px 8px 0px #F90;
--moz-box-shadow: 0px 0px 20px 0px #F90;
-box-shadow: 0px 0px 8px 0px #F90;}
+valign: center;
+/*height: 40px; padding-top: 10px; 
+padding-top:12px; padding-right:150px;*/
+-webkit-box-shadow: 0px 0px 8px 0px #F90;/*don't need this one?*/
+-moz-box-shadow: 0px 0px 20px 0px #F90;/*don't need this one?*/
+box-shadow: 0px 0px 8px 0px #F90;
+}
+
 
 #bgimage { margin:0px; margin-left:17px; min-width:950px; 
 /*opacity:0.4;
@@ -63,10 +66,74 @@ filter:alpha(opacity=40); /* For IE8 and earlier */}
 box-shadow: 0px 0px 8px 0px #000000;*/
 }
 
+h3 { font-family: KonTiki; font-size:45px; color:#F96; padding: 10px;}
 
-#content { text-align: center; margin-left:17px; margin-bottom: 10px;  padding:10px; padding-left:10px; padding-right:30px; font-size:20px; }
-  .content-left{ width: 340px; position: absolute; border:2px solid;}
-  .content-right{ width: 340px; padding: 0 0 0 19px; margin: 0 0 0 20px; }
+h4 { font-family: KonTiki; font-size:30px; color:#F96; padding: 6px;}
+
+h5 { font-family: FanfareJF; font-size:18px; color:#F96; padding: 2px;}
+
+#content { text-align: left; margin-left:17px; margin-bottom: 10px;  padding:10px; padding-left:10px; padding-right:30px; font-size:20px; width: 980px; color: #555 }
+
+.content-left{ width: 400px; float: left; font-size:15px; padding: 40px 40px 20px; }
+.content-right{ width: 400px; float: right; padding: 40px 40px 20px; font-size:15px; }
+.content-bottom{ width: 980px; clear: both;}
+
+.outer250 {
+    width: 250px;
+    height: 250px;
+    -webkit-box-shadow: 0px 0px 10px #4d4d4d;
+    -moz-box-shadow: 0px 0px 10px #4d4d4d;
+    box-shadow: 0px 0px 10px #4d4d4d;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -khtml-border-radius: 20px;  
+    border-radius: 20px;
+    border:solid white 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.outer350 {
+    width: 350px;
+    height: 250px;
+    -webkit-box-shadow: 0px 0px 10px #4d4d4d;
+    -moz-box-shadow: 0px 0px 10px #4d4d4d;
+    box-shadow: 0px 0px 10px #4d4d4d;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -khtml-border-radius: 20px;  
+    border-radius: 20px;
+    border:solid white 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.rounded-image350 {
+    background: #EECCEE;
+    padding: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -khtml-border-radius: 20px;  
+    border-radius: 20px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.rounded-image250 {
+    background: #EECCEE;
+    padding: 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -khtml-border-radius: 20px;  
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.minisubtitle { width: 780px; font-family:FanfareJF; font-size:28px; background-color: #F96; height: 30px; padding-left:200px; text-align: left; padding-top: 10px; clear:all; margin: 20px 0px 20px 0px; color: black}
+
 
 /*vertical blue line*/
 #main-wrapper{
@@ -74,4 +141,5 @@ box-shadow: 0px 0px 8px 0px #000000;*/
 	margin: 0 auto;
 	background: url(vwrap.png) repeat-y 0px 0;
 }
+
 
