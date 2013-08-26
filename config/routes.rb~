@@ -2,27 +2,24 @@ WeddingApp::Application.routes.draw do
   #resources :users
   #resources :sessions, only: [:new, :create, :destroy]
 
-  root to: "static_pages#home"
-
-  get "static_pages/us"
-  get "static_pages/wedding"
-  get "static_pages/bridal party"
-  get "static_pages/location"
-  get "static_pages/photos"
-  get "static_pages/registry"
-  get "static_pages/rsvp"
+  root to: "static_pages#wedding"
 
   #match '/signup',  to: 'users#new'
   #match '/signin',  to: 'sessions#new'
   #match '/signout', to: 'sessions#destroy', via: :delete
   
-  #match '/us',        	to: 'static_pages#us'
-  #match '/wedding',   	to: 'static_pages#wedding'
-  #match '/bridalparty', to: 'static_pages#bridalparty'
-  #match '/location', 	to: 'static_pages#location'
-  #match '/photos',      to: 'static_pages#photos'
-  #match '/registry',    to: 'static_pages#registry'
-  #match '/rsvp',  	to: 'static_pages#rsvp'
+  match '/wedding',     to: 'static_pages#wedding'
+  match '/us',        	to: 'static_pages#us'
+  match '/weddingday', 	to: 'static_pages#weddingday'
+  match '/bridalparty', to: 'static_pages#bridalparty'
+  match '/location', 	to: 'static_pages#location'
+  match '/photos',      to: 'static_pages#photos'
+  match '/registry',    to: 'static_pages#registry'
+  match '/rsvp',  	to: 'rsvps/new'
+  
+  resources :rsvps, :only => [:new, :create] do
+    get 'thank_you', :on => :collection
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -2,19 +2,20 @@ WeddingApp::Application.routes.draw do
   #resources :users
   #resources :sessions, only: [:new, :create, :destroy]
 
-  root to: "static_pages#home"
+  root to: "static_pages#wedding"
 
   #match '/signup',  to: 'users#new'
   #match '/signin',  to: 'sessions#new'
   #match '/signout', to: 'sessions#destroy', via: :delete
   
+  match '/wedding',     to: 'static_pages#wedding'
   match '/us',        	to: 'static_pages#us'
-  match '/wedding',   	to: 'static_pages#wedding'
+  match '/weddingday', 	to: 'static_pages#weddingday'
   match '/bridalparty', to: 'static_pages#bridalparty'
   match '/location', 	to: 'static_pages#location'
   match '/photos',      to: 'static_pages#photos'
   match '/registry',    to: 'static_pages#registry'
-  match '/rsvp',  	to: 'static_pages#rsvp'
+  match '/rsvp',  	to: 'rsvps#new'
   
   resources :rsvps, :only => [:new, :create] do
     get 'thank_you', :on => :collection

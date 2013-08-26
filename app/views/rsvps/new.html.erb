@@ -1,4 +1,10 @@
-<h1>Want to get in touch?</h1>
-<p>Please fill out the form below and we'll get back to you</p>
+<% provide(:title, 'RSVP') %>
+<div id="subtitle">RSVP</div>
+
+<div id="content">
+  <div class="content-bottom">
+<p>To RSVP for the wedding, please submit the form below, send us an email, or give us a call!</p>
 
 <%= render 'form', :rsvp => @rsvp %>
+  </div>
+</div>
