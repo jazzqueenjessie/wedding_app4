@@ -1,4 +1,12 @@
 <%= form_for rsvp do |f| %>
+  <% if rsvp.errors.any? %>
+    <ul>
+      <% rsvp.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  <% end %>
+  
   <div>
     <%= f.label :name %><br/>
     <%= f.text_field :name %>
