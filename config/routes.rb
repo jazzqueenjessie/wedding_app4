@@ -15,6 +15,10 @@ WeddingApp::Application.routes.draw do
   match '/photos',      to: 'static_pages#photos'
   match '/registry',    to: 'static_pages#registry'
   match '/rsvp',  	to: 'static_pages#rsvp'
+  
+  resources :inquiries, :only => [:new, :create] do
+    get 'thank_you', :on => :collection
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
