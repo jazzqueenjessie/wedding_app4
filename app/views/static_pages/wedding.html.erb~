@@ -1,22 +1,14 @@
-<% provide(:title, 'Wedding') %>
-<div id="subtitle">Our Big Day</div>
-<div id="content">
-<%= image_tag("http://wedding-blog.gavinfarrington.com/wp-content/uploads/2012/03/11-sign-engagement-photography-san-diego-california-seagrove-park-beach.jpg", :width => 450) %>
-<%= image_tag("http://kevincumminshomes.com/wp-content/uploads/2013/01/DSC_0181.jpg", :width => 450) %>
 
-<br><br>
-<center>
-Wedding Ceremony
-<br>to be held at
-<br><h4>Seagrove Park</h4>
-2:14PM
-<br><br>
-<br>Reception to follow at
-<br><h4>the Powerhouse in Del Mar</h4>
-3-8PM
-</center>
-<br><br>
+<% provide(:title, '1/4/14') %>
 
-<%= image_tag("http://nosugaraddedblog.files.wordpress.com/2011/05/del-mar-ca-04022011b.jpg", :width =>425) %>
-<%= image_tag("http://farm4.staticflickr.com/3073/3054879691_bf24560d61_z.jpg", :width => 475) %>
+<div id="subtitle">We're getting married, and we hope you'll be there - 1/4/14</div>
+
+<%= image_tag("tree7.jpg", alt: "Del Mar, California", :id => "bgimage", :width => "100%" ) %>
+<br>
+<div id="content">Welcome to our wedding website! Please browse the links at the top to learn more about us and the wedding.
+<div class="content-bottom">
+  <div class="minisubtitle">Announcements</div>
+  <p>Invitations are being mailed this week! Please get in touch if you do not receive yours before September 6th. RSVP are due on November 23rd - please use the form available on the RSVP page (right-most link on navigation bar).</p>
 </div>
+</div>
+
