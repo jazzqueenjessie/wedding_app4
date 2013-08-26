@@ -2,6 +2,7 @@ class Rsvp
   extend ActiveModel::Naming
   include ActiveModel::Conversion
   include ActiveModel::Validations
+  include ActionView::Helpers::TextHelper
   
   attr_accessor :name, :email, :message
   
@@ -22,7 +23,13 @@ class Rsvp
   
   def deliver
     return false unless valid?
-    true
+    Pony.mail({
+      :from => %("#{name}" <#{email}>),
+      :reply_to => email,
+      :subject => "Website RSVP",
+      :body => message,
+      :html_body => simple_format(message)
+    })
   end
   
   def persisted?
