@@ -36,13 +36,13 @@ background-color: rgba(1, 1, 1, 0.8); color: rgba(1, 1, 1, 0.8);}
 
 
 /*BODY ARCHITECTURE*/
-#titlebar { height:100px; width:100%; 
+#titlebar { outline:#000000 thick; height:100px; width:100%; 
 margin-left:17px; margin-top:50px;  
 padding-top:50px; padding-left:200px;
 background-color:#FFF; background-size: cover;
 font-family:KonTiki; font-size:80px; color:#F96; }
 
-#subtitle { margin-left:17px; height: 50px; line-height: 50px; width: 100%;
+#subtitle { margin-left:17px; height: 50px; line-height: 50px; width: 100%; outline:#000000;
 padding-left:200px; padding-right:0px;
 background-color: #F96; background-size: cover;
 font-family:FanfareJF; font-size:30px; color:#FFF;
@@ -132,7 +132,7 @@ h5 { font-family: FanfareJF; font-size:18px; color:#F96; padding: 2px;}
     overflow: hidden;
 }
 
-.minisubtitle { width: 780px; font-family:FanfareJF; font-size:28px; background-color: #F96; height: 30px; padding-left:200px; text-align: left; padding-top: 10px; clear:all; margin: 20px 0px 20px 0px; color: black}
+.minisubtitle { outline:#000000 thick dotted; width: 780px; font-family:FanfareJF; font-size:28px; background-color: #F96; height: 30px; line-height: 30px; padding-left:200px; text-align: left; /*padding-top: 10px;*/ clear:all; margin: 20px 0px 20px 0px; color: black}
 
 
 /*vertical blue line*/
