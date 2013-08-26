@@ -1,0 +1,29 @@
+
+<%= provide(:title, 'Sign up') %>
+<div id="subtitle">Create a user login!</div>
+<br>
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages' %>
+      
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "Confirmation" %>
+      <%= f.password_field :password_confirmation %>
+
+      <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
+    <% end %>
+    <div id="content">
+Signing up for a username will allow you to post on the website, RSVP with your account, participate in polls, and access private content.
+    </div><br>
+If you'd like to RSVP without creating a login, check back later for the RSVP form.
+  </div>
+</div>

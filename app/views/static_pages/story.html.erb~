@@ -1,0 +1,3 @@
+<% provide(:title, 'Our Story') %>
+
+    <div id="subtitle">Our Story</div>

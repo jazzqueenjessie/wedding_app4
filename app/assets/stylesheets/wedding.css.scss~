@@ -1,0 +1,68 @@
+@import "bootstrap";
+
+@charset "utf-8";
+/* CSS Document */
+
+
+/*GLOBAL*/
+
+/*need to fix this - fonts should be in /assets and be able to reference them, but does not work currently*/
+@font-face {
+	font-family: KonTiki;
+	src: url('fonts/KonTikiEnchantedJF.ttf');/* IE */
+	src: local("KonTiki"), url( 'fonts/KonTikiEnchantedJF.ttf' ) format("truetype"); /* non-IE */  
+}
+@font-face {
+	font-family: FanfareJF;
+	src: url('fonts/FanfareJF.ttf');
+	src: local("FanfareJF"), url( 'fonts/FanfareJF.ttf' ) format("truetype"); /* non-IE */  
+}
+
+body{ padding:0px; margin:0px; font-family:Georgia; min-width:900px; }
+/*background-image: url(/images/tree7.jpg); background-size: cover; background-repeat: no-repeat;*/ 
+
+
+/*TOP FLOATING NAVIGATION PANEL*/
+/*removed for now, needs work*/
+#navigation {
+position:fixed; top:0; width: 100%; height:35px; padding-top:15px; padding-left:200px;
+color: #aaaaaa; 
+/* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+/* Adds the transparent background */
+background-color: rgba(1, 1, 1, 0.8); color: rgba(1, 1, 1, 0.8);}
+#navigation a { font-size:14px; padding-left:15px; padding-right:15px; color:white; text-decoration:none; }
+/*#navigation a:hover { color:#F96; width:100%; } add this when there are real links*/
+
+
+
+/*BODY ARCHITECTURE*/
+#titlebar { padding:0; margin-left:17px; margin-top:100px; height:100px; width:100%; 
+padding-top:10px; padding-left:150px;
+background-color:#FFF; background-size: cover;
+font-family:KonTiki; font-size:80px; color:#F96;}
+
+#subtitle { margin-left:50px; height: 50px; width:100%; min-width:500px; padding-left:170px; padding-right:150px;
+background-color: #F96;  background-size: cover;
+font-family:FanfareJF; font-size:30px; color:#FFF; vertical-align:text-center;
+-webkit-box-shadow: 0px 0px 8px 0px #F90;
+-moz-box-shadow: 0px 0px 20px 0px #F90;
+box-shadow: 0px 0px 8px 0px #F90;}
+
+#bgimage { margin:0px; margin-left:17px; min-width:500px }
+
+#content1 { margin-left:17px; width:100%; padding:0px; padding-left:10px; font-size:20px;
+	/* Adds shadow to the bottom of the bar 
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;*/
+}
+
+#main-wrapper{
+	position: absolute;
+	margin: 0 auto;
+	background: url(vwrap.png) repeat-y 0px 0;
+}
+

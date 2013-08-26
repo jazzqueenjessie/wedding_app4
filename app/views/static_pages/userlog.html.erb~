@@ -1,0 +1,11 @@
+
+
+    <div id="subtitle">User Login</div>
+<div id="content">
+  Log in
+  or, if you don't have a username:
+  
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+  
+  Forgot password
+</div>

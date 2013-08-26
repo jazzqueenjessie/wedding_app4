@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= full_title(yield(:title)) %></title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="main-wrapper">
+  <div id="titlebar">Jessie &amp; Jordan</div>
+  
+      <% flash.each do |key, value| %>
+        <%= content_tag(:div, value, class: "alert alert-#{key}") %>
+      <% end %>
+  
+  <%= yield %>
+
+  <%= debug(params) if Rails.env.development? %>
+  
+  <div id="navigation">
+    <%= link_to "home", root_path %>
+    <%= link_to "our story", story_path %>
+    <%= link_to "the engagement", engagement_path %>
+    <% if signed_in? %>
+      <%= link_to "wedding party", weddingparty_path %>
+      <%= link_to "travel information", travel_path %>
+      <%= link_to "profile", current_user %>
+      <%= link_to "sign out", signout_path, method: "delete" %>
+      <!--id="fat-menu" class="dropdown" bgcolor="aaa">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+                account <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li></li>
+                <li class="divider"></li>
+                <li>
+                  
+                </li>
+              </ul-->   
+    <!--%= link_to "wedding schedule",   '#' %-->
+    <!--%= link_to "registry",           '#' %-->
+    <% else %>
+      <%= link_to "sign in", signin_path %>
+    <% end %>
+  </div>
+
+</div><!--from main wrapper>
+
+      <%= debug(params) if Rails.env.development? %>
+</body>
+</html>

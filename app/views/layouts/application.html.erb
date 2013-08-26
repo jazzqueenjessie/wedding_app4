@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= full_title(yield(:title)) %></title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="main-wrapper">
+  <div id="titlebar">Jessie &amp; Jordan</div>
+  
+      <% flash.each do |key, value| %>
+        <%= content_tag(:div, value, class: "alert alert-#{key}") %>
+      <% end %>
+  
+  <%= yield %>
+
+  <%= debug(params) if Rails.env.development? %>
+  
+  <div id="navigation">
+    <%= link_to "home", root_path %>
+    <%= link_to "us", us_path %>
+    <%= link_to "wedding", wedding_path %>
+    <%= link_to "bridal party", bridalparty_path %>
+    <%= link_to "location", location_path %>
+    <%= link_to "photos", photos_path %>
+    <%= link_to "registry", registry_path %>
+    <%= link_to "RSVP", rsvp_path %>
+  </div>
+
+</div><!--from main wrapper>
+
+      <%= debug(params) if Rails.env.development? %>
+</body>
+</html>

@@ -1,0 +1,122 @@
+require 'spec_helper'
+
+describe "StaticPages" do
+ 
+  let(:base_title) { "Jessie & Jordan"}
+
+  describe "Home page" do
+    it "should have the title 'Jessie & Jordan * 1/4/14'" do
+      visit root_path
+      page.should have_selector('title', :text => "#{base_title} * 1/4/14")
+    end    
+  
+    it "should have the divtag titlebar 'Jessie & Jordan'" do
+      visit root_path
+      page.should have_content('Jessie & Jordan')
+      #should have_css('div.titlebar')
+    end
+    
+    it "should have the div id='subtitle' 'We're getting married, and we hope you'll be there'" do
+      visit root_path     
+      page.should have_content('We\'re getting married, and we hope you\'ll be there')
+      #should have_css('div.subtitle')
+    end
+    
+    #don't want this test
+    #it "should not have a custom page title" do
+     # visit '/static_pages/home'
+      #page.should_not have_selector('title', :text => ' * 1/4/14')
+    #end
+  end
+  
+  describe "Us page" do
+    it "should have the content 'Our Story'" do
+      visit us_path
+      page.should have_content('Jessie & Jordan')
+      page.should have_content('Our Story')
+    end
+ 
+    it "should have the title 'Our Story'" do   
+      visit us_path
+      page.should have_selector('title', :text => "#{base_title} * Our Story")
+    end  
+  end
+  
+  describe "Wedding page" do
+    it "should have the content 'Wedding'" do
+      visit wedding_path
+      page.should have_content('Jessie & Jordan')
+      page.should have_content('Wedding Information')
+    end
+    
+    it "should have the title 'Wedding'" do   
+      visit wedding_path
+      page.should have_selector('title', :text => "#{base_title} * Wedding")
+    end  
+  end
+
+  describe "Bridal Party page" do
+    it "should have the content 'Bridal Party'" do
+      visit bridalparty_path
+      page.should have_content('Jessie & Jordan')
+      page.should have_content('Bridal Party')
+    end
+    
+    it "should have the title 'Bridal Party'" do   
+      visit bridalparty_path
+      page.should have_selector('title', :text => "#{base_title} * Bridal Party")
+    end  
+  end
+
+  describe "Location page" do
+    it "should have the content 'Location'" do
+      visit location_path
+      page.should have_content('Jessie & Jordan')
+      page.should have_content('Location & Travel Information')
+    end
+    
+    it "should have the title 'Location'" do
+      visit location_path
+      page.should have_selector('title', :text => "#{base_title} * Location")
+    end   
+  end
+
+  describe "Photos page" do
+    it "should have the content 'Photos'" do
+      visit photos_path
+      page.should have_content('Jessie & Jordan')
+      page.should have_content('Photos')
+    end
+    
+    it "should have the title 'Photos'" do   
+      visit photos_path
+      page.should have_selector('title', :text => "#{base_title} * Photos")
+    end  
+  end
+
+  describe "Registry page" do
+    it "should have the content 'Registry'" do
+      visit registry_path
+      page.should have_content('Jessie & Jordan')
+      page.should have_content('Gift Registries')
+    end
+    
+    it "should have the title 'Registry'" do   
+      visit registry_path
+      page.should have_selector('title', :text => "#{base_title} * Registry")
+    end  
+  end
+  
+  describe "RSVP page" do
+    it "should have the content 'RSVP'" do
+      visit rsvp_path
+      page.should have_content('Jessie & Jordan')
+      page.should have_content('RSVP')
+    end
+    
+    it "should have the title 'RSVP'" do   
+      visit rsvp_path
+      page.should have_selector('title', :text => "#{base_title} * RSVP")
+    end  
+  end
+end

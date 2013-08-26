@@ -1,0 +1,22 @@
+<% provide(:title, 'Wedding') %>
+<div id="subtitle">Our Big Day</div>
+<div id="content">
+<%= image_tag("http://wedding-blog.gavinfarrington.com/wp-content/uploads/2012/03/11-sign-engagement-photography-san-diego-california-seagrove-park-beach.jpg", :width => 450) %>
+<%= image_tag("http://kevincumminshomes.com/wp-content/uploads/2013/01/DSC_0181.jpg", :width => 450) %>
+
+<br><br>
+<center>
+Wedding Ceremony
+<br>to be held at
+<br><h4>Seagrove Park</h4>
+2:14PM
+<br><br>
+<br>Reception to follow at
+<br><h4>the Powerhouse in Del Mar</h4>
+3-8PM
+</center>
+<br><br>
+
+<%= image_tag("http://nosugaraddedblog.files.wordpress.com/2011/05/del-mar-ca-04022011b.jpg", :width =>425) %>
+<%= image_tag("http://farm4.staticflickr.com/3073/3054879691_bf24560d61_z.jpg", :width => 475) %>
+</div>
