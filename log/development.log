@@ -10359,3 +10359,869 @@ Served asset /fonts/FanfareJF.ttf - 304 Not Modified (0ms)
 
 Started GET "/assets/fonts/KonTikiEnchantedJF.ttf" for 127.0.0.1 at 2013-08-26 14:05:37 -0700
 Served asset /fonts/KonTikiEnchantedJF.ttf - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-26 14:32:36 -0700
+Connecting to database specified by database.yml
+Processing by StaticPagesController#wedding as HTML
+ERROR: compiling _app_views_static_pages_wedding_html_erb___2096608642647697336_69882542621900 RAISED /home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+/home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_static_pages_wedding_html_erb___2096608642647697336_69882542621900(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/wedding";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('
+'); provide(:title, '1/4/14') 
+@output_buffer.safe_concat('
+<div id="subtitle">We\'re getting married, and we hope you\'ll be there - 1/4/14');@output_buffer.append= ( image_tag("Transparent.gif", :height=> "30px" );@output_buffer.safe_concat('</div>
+
+');@output_buffer.append= ( image_tag("tree7.jpg", alt: "Del Mar, California", :id => "bgimage", :width => "100%" ) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('<br>
+<div id="content">Welcome to our wedding website! Please browse the links at the top to learn more about us and the wedding.
+<div class="content-bottom">
+  <div class="minisubtitle">Announcements</div>
+  <p>Invitations are being mailed this week! Please get in touch if you do not receive yours before September 6th. RSVP are due on November 23rd - please use the form available on the RSVP page (right-most link on navigation bar).</p>
+</div>
+</div>
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `synchronize'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__1343521345741282744__process_action__2743181245006981802__callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__1022870490909925996__call__3778692097112478926__callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/wedding.html.erb within layouts/application (22.9ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (/home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+/home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+    13: </div>
+  actionpack (3.2.12) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.12) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.12) lib/action_view/template.rb:244:in `block in compile!'
+  actionpack (3.2.12) lib/action_view/template.rb:232:in `synchronize'
+  actionpack (3.2.12) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.12) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.12) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.12) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.12) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.12) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.12) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.12) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:414:in `_run__1343521345741282744__process_action__2743181245006981802__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.12) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__1022870490909925996__call__3778692097112478926__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-26 14:34:03 -0700
+Processing by StaticPagesController#wedding as HTML
+ERROR: compiling _app_views_static_pages_wedding_html_erb___2096608642647697336_18026360 RAISED /home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+/home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_static_pages_wedding_html_erb___2096608642647697336_18026360(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/wedding";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('
+'); provide(:title, '1/4/14') 
+@output_buffer.safe_concat('
+<div id="subtitle">We\'re getting married, and we hope you\'ll be there - 1/4/14');@output_buffer.append= ( image_tag("Transparent.gif", :height => '30px' );@output_buffer.safe_concat('</div>
+
+');@output_buffer.append= ( image_tag("tree7.jpg", alt: "Del Mar, California", :id => "bgimage", :width => "100%" ) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('<br>
+<div id="content">Welcome to our wedding website! Please browse the links at the top to learn more about us and the wedding.
+<div class="content-bottom">
+  <div class="minisubtitle">Announcements</div>
+  <p>Invitations are being mailed this week! Please get in touch if you do not receive yours before September 6th. RSVP are due on November 23rd - please use the form available on the RSVP page (right-most link on navigation bar).</p>
+</div>
+</div>
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `synchronize'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__1343521345741282744__process_action__2743181245006981802__callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__1022870490909925996__call__3778692097112478926__callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/wedding.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (/home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+/home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+    13: </div>
+  actionpack (3.2.12) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.12) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.12) lib/action_view/template.rb:244:in `block in compile!'
+  actionpack (3.2.12) lib/action_view/template.rb:232:in `synchronize'
+  actionpack (3.2.12) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.12) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.12) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.12) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.12) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.12) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.12) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.12) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:414:in `_run__1343521345741282744__process_action__2743181245006981802__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.12) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__1022870490909925996__call__3778692097112478926__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-26 14:34:12 -0700
+Processing by StaticPagesController#wedding as HTML
+ERROR: compiling _app_views_static_pages_wedding_html_erb___2096608642647697336_25481080 RAISED /home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+/home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_static_pages_wedding_html_erb___2096608642647697336_25481080(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "static_pages/wedding";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('
+'); provide(:title, '1/4/14') 
+@output_buffer.safe_concat('
+<div id="subtitle">We\'re getting married, and we hope you\'ll be there - 1/4/14');@output_buffer.append= ( image_tag("Transparent.gif", :height => '30' );@output_buffer.safe_concat('</div>
+
+');@output_buffer.append= ( image_tag("tree7.jpg", alt: "Del Mar, California", :id => "bgimage", :width => "100%" ) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('<br>
+<div id="content">Welcome to our wedding website! Please browse the links at the top to learn more about us and the wedding.
+<div class="content-bottom">
+  <div class="minisubtitle">Announcements</div>
+  <p>Invitations are being mailed this week! Please get in touch if you do not receive yours before September 6th. RSVP are due on November 23rd - please use the form available on the RSVP page (right-most link on navigation bar).</p>
+</div>
+</div>
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `synchronize'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__1343521345741282744__process_action__2743181245006981802__callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__1022870490909925996__call__3778692097112478926__callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered static_pages/wedding.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (/home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+/home/jrucker/rails_projects/wedding_app4/app/views/static_pages/wedding.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+    13: </div>
+  actionpack (3.2.12) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.12) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.12) lib/action_view/template.rb:244:in `block in compile!'
+  actionpack (3.2.12) lib/action_view/template.rb:232:in `synchronize'
+  actionpack (3.2.12) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.12) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.12) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.12) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.12) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.12) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.12) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.12) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:414:in `_run__1343521345741282744__process_action__2743181245006981802__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.12) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__1022870490909925996__call__3778692097112478926__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/jrucker/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/jrucker/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-26 14:35:08 -0700
+Processing by StaticPagesController#wedding as HTML
+  Rendered static_pages/wedding.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 143ms (Views: 142.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-26 14:35:08 -0700
+Served asset /application.css - 304 Not Modified (60ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-26 14:35:08 -0700
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-26 14:35:08 -0700
+Served asset /custom.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:08 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:08 -0700
+Served asset /jquery.js - 304 Not Modified (44ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wedding.css?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /wedding.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /bootstrap.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Transparent.gif" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /Transparent.gif - 200 OK (35ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /application.js - 304 Not Modified (61ms)
+
+
+Started GET "/assets/tree7.jpg" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /tree7.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vwrap.png" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /vwrap.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fonts/KonTikiEnchantedJF.ttf" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /fonts/KonTikiEnchantedJF.ttf - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fonts/FanfareJF.ttf" for 127.0.0.1 at 2013-08-26 14:35:09 -0700
+Served asset /fonts/FanfareJF.ttf - 304 Not Modified (1ms)
