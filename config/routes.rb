@@ -16,7 +16,7 @@ WeddingApp::Application.routes.draw do
   match '/registry',    to: 'static_pages#registry'
   match '/rsvp',  	to: 'static_pages#rsvp'
   
-  resources :inquiries, :only => [:new, :create] do
+  resources :rsvps, :only => [:new, :create] do
     get 'thank_you', :on => :collection
   end
 
