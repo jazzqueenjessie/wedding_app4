@@ -22,12 +22,12 @@
     <%= image_tag("winterformal_compressed.jpg", :alt => "Winter Formal", :width => '400') %>
     </td>
     <td width="400"><b>Jessie's story:</b>
-    <p>I played in the Jazz Band every year during high school. After my sophomore year, the group had a lot of turnover, and Jordan joined as our resident guitarist. We were instant best friends, having similar passions, work ethics, and a certain humor about life. It wasn't until one of my female friends asked me if he was "available," did I realize how much I actually liked him. Carefully walking the friendship line, I asked him to be my date to the Winter Formal dance, and, of course, he said "yes."</p>
+    <p>I played in the Jazz Band every year during high school. After my sophomore year, the group had a lot of turnover, and Jordan joined as our resident guitarist. We were instant best friends, having similar passions, work ethics, and a certain humor about life. It wasn't until one of my female friends asked me if he was "available," did I realize how much I actually liked him. Carefully walking the friendship line, I asked him to be my date to the Winter Formal dance, and of course, he said "yes."</p>
     </td></tr></table>
  
   <div class="minisubtitle">The Proposal</div>
   <table cellpadding="20"><tr><td width="400"><b>Jordan's Story:</b>
-<p>After graduating from Oberlin in 2010, I moved to Boston to be with Jessie while she finished her degree at Olin. When Jessie entered her senior year, I realized we had been together for nearly eight years, and I decided the time was right. During that fall, I planned the perfect proposal. We flew to San Diego for the winter holidays, and on December 23, ring secretly in hand, I suggested we watch the sunset from our favorite spot: the cliffs in Torrey Pines. Just after sunset, I got down on one knee and asked her to marry me, and, of course, she said “yes!”</p></td>
+<p>After graduating from Oberlin, Jordan followed Jessie to Boston while she finished her degree at Olin. A year later, he decided the time was right. In the fall of 2011, he planned the perfect proposal. They flew to San Diego for the holidays, and on December 23, ring secretly in hand, Jordan suggested they watch the sunset from their favorite spot, the cliffs in Del Mar. Just after sunset, he got down on one knee, and, of course, she said “yes!”</p></td>
   <td width="400"><center>
   <%= image_tag("proposal.jpg", :width => '250') %></center>
   </td>

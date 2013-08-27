@@ -35,12 +35,11 @@
   
   <%= image_tag("abby.jpg", :width => 250) %>
   <h4>Abby</h4><h5>Best Man</h5>
-  Housemate and best friend from Oberlin
+  slakjgksjg
   
   <br><br><br>
   <%= image_tag("brendan.jpg", :width => 250) %>
   <h4>Brendan</h4><h5>Groomsman</h5>
-   Best friend since 2nd grade
   
   <br><br><br>
   <%= image_tag("marie.jpg", :width => 250) %>
@@ -50,12 +49,12 @@
   <br><br><br>
   <%= image_tag("andrew.jpg", :width => 250) %>
   <h4>Andrew</h4><h5>Groomsman</h5>
-  Best friend since 4th grade
+
   
   <br><br><br>
   <%= image_tag("pauline1.jpg", :width => 250) %>
   <h4>Pauline</h4><h5>Groomsmaid</h5>
-  Best friend from Oberlin
+  asdkfjhsfdkj
    </center>
   
   
