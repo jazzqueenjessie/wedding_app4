@@ -1,3 +1,10 @@
+<style>
+td
+{
+vertical-align:middle;
+}
+</style>
+
 <%= form_for rsvp do |f| %>
   <% if rsvp.errors.any? %>
     <ul>
@@ -11,23 +18,67 @@
     <%= f.label :nickname %><br/>
     <%= f.text_field :nickname %>
   </div>
+  <table cellpadding="5">
+    <tr>
+      <td width="75"></td>
+      <td width="150">First Name</td>
+      <td width="150">Last Name</td>
+      <td width="100">Attending</td>
+      <td width="200">Regrefully Decline</td>
+    </tr>
+    <tr>
+      <td>Guest 1:</td>
+      <td><%= f.text_field :firstname1, :size => "10" %></td>
+      <td><%= f.text_field :lastname1, :size => "10" %></td>
+      <td><%= f.check_box :yes1 %></td>
+      <td><%= f.check_box :no1 %></td>
+    </tr>
+    <tr>
+      <td>Guest 2:</td>
+      <td><%= f.text_field :firstname2, :size => "10" %></td>
+      <td><%= f.text_field :lastname2, :size => "10" %></td>
+      <td><%= f.check_box :yes2 %></td>
+      <td><%= f.check_box :no2 %></td>
+    </tr>
+    <tr>
+      <td>Guest 3:</td>
+      <td><%= f.text_field :firstname3, :size => "10" %></td>
+      <td><%= f.text_field :lastname3, :size => "10" %></td>
+      <td><%= f.check_box :yes3 %></td>
+      <td><%= f.check_box :no3 %></td>
+    </tr>
+    <tr>
+      <td>Guest 4:</td>
+      <td><%= f.text_field :firstname4, :size => "10" %></td>
+      <td><%= f.text_field :lastname4, :size => "10" %></td>
+      <td><%= f.check_box :yes4 %></td>
+      <td><%= f.check_box :no4 %></td>
+    </tr>
+    <tr>
+      <td>Guest 5:</td>
+      <td><%= f.text_field :firstname5, :size => "10" %></td>
+      <td><%= f.text_field :lastname5, :size => "10" %></td>
+      <td><%= f.check_box :yes5 %></td>
+      <td><%= f.check_box :no5 %></td>
+    </tr>
+  </table>
+  <br>
+  
+  <table cellpadding="5"><tr>
+  <td width="300">Contact email:
+  <br/><br/><%= f.text_field :email %></td>
+  <td width="50"></td>
+  <td width="200">Phone number:
+  <br/><br/><%= f.text_field :phone %></td>
+  </tr>
+  </table>
+  <br>
+  <table width="700"><tr><td>
+    Notes for Jordan and Jessie<br/>
+    <%= f.text_area :notes %>
+  </td></tr></table>
   
   <div>
-    <%= f.label :name %><br/>
-    <%= f.text_field :name %>
-  </div>
-  
-  <div>
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
-  </div>
-  
-  <div>
-    <%= f.label :message %><br/>
-    <%= f.text_area :message %>
-  </div>
-  
-  <div>
-    <%= f.submit "Send" %>
+    <%= f.submit "Submit" %>
   </div>
 <% end %>
