@@ -7,12 +7,12 @@
 /*need to fix this - fonts should be in /assets and be able to reference them, but does not work currently*/
 @font-face {
 	font-family: KonTiki;
-	src: url('fonts/KonTikiEnchantedJF.ttf');/* IE */
+	src: url('fonts/KonTikiEnchantedJF.eot');/* IE */
 	src: local("KonTiki"), url( 'fonts/KonTikiEnchantedJF.ttf' ) format("truetype"); /* non-IE */  
 }
 @font-face {
 	font-family: FanfareJF;
-	src: url('fonts/FanfareJF.ttf');
+	src: url('fonts/FanfareJF.eot');
 	src: local("FanfareJF"), url( 'fonts/FanfareJF.ttf' ) format("truetype"); /* non-IE */  
 }
 
