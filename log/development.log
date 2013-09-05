@@ -30582,3 +30582,643 @@ Served asset /fonts/fanfarejf-webfont.woff - 304 Not Modified (0ms)
 
 Started GET "/assets/fonts/kontikienchantedjf-webfont.woff" for 127.0.0.1 at 2013-09-04 15:18:16 -0700
 Served asset /fonts/kontikienchantedjf-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Connecting to database specified by database.yml
+Processing by StaticPagesController#wedding as HTML
+  Rendered static_pages/wedding.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 277ms (Views: 276.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /custom.css - 304 Not Modified (52ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /application.css - 304 Not Modified (53ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/wedding.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /wedding.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:10 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:11 -0700
+Served asset /bootstrap.js - 304 Not Modified (57ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:11 -0700
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:11 -0700
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:11 -0700
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:11 -0700
+Served asset /application.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/tree7.jpg" for 127.0.0.1 at 2013-09-04 22:14:11 -0700
+Served asset /tree7.jpg - 200 OK (1ms)
+
+
+Started GET "/assets/vwrap.png" for 127.0.0.1 at 2013-09-04 22:14:11 -0700
+Served asset /vwrap.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fonts/kontikienchantedjf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:14:11 -0700
+Served asset /fonts/kontikienchantedjf-webfont.woff - 304 Not Modified (22ms)
+
+
+Started GET "/assets/fonts/fanfarejf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:14:11 -0700
+Served asset /fonts/fanfarejf-webfont.woff - 304 Not Modified (1ms)
+
+
+Started GET "/rsvp" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Processing by RsvpsController#new as HTML
+  Rendered rsvps/_form.html.erb (10.1ms)
+  Rendered rsvps/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 80ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/wedding.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /wedding.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vwrap.png" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /vwrap.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fonts/kontikienchantedjf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /fonts/kontikienchantedjf-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fonts/fanfarejf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:14:12 -0700
+Served asset /fonts/fanfarejf-webfont.woff - 304 Not Modified (0ms)
+
+
+Started POST "/rsvps" for 127.0.0.1 at 2013-09-04 22:14:34 -0700
+Processing by RsvpsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLav0WB9kHVYV6j+2v0thKWoPku2CGv2yZkSclaN2qU=", "rsvp"=>{"nickname"=>"", "firstname1"=>"Jessie", "lastname1"=>"Test", "yes1"=>"1", "no1"=>"0", "firstname2"=>"", "lastname2"=>"", "yes2"=>"0", "no2"=>"0", "firstname3"=>"", "lastname3"=>"", "yes3"=>"0", "no3"=>"0", "firstname4"=>"", "lastname4"=>"", "yes4"=>"0", "no4"=>"0", "firstname5"=>"", "lastname5"=>"", "yes5"=>"0", "no5"=>"0", "email"=>"jazzqueenjessie@gmail.com", "phone"=>"(858) 205-9748", "notes"=>"sup??"}, "commit"=>"Submit"}
+Redirected to http://localhost:3000/wedding.html
+Completed 302 Found in 1125ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/wedding.html" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Processing by StaticPagesController#wedding as HTML
+  Rendered static_pages/wedding.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 76ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /custom.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wedding.css?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /wedding.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:35 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tree7.jpg" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /tree7.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/vwrap.png" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /vwrap.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fonts/kontikienchantedjf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /fonts/kontikienchantedjf-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fonts/fanfarejf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:14:36 -0700
+Served asset /fonts/fanfarejf-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/rsvp" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Connecting to database specified by database.yml
+Processing by RsvpsController#new as HTML
+  Rendered rsvps/_form.html.erb (42.6ms)
+  Rendered rsvps/new.html.erb within layouts/application (49.5ms)
+Completed 200 OK in 186ms (Views: 184.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /application.css - 304 Not Modified (67ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /custom.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wedding.css?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /wedding.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (49ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /sessions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /bootstrap.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /application.js - 304 Not Modified (60ms)
+
+
+Started GET "/assets/vwrap.png" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /vwrap.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/fonts/kontikienchantedjf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /fonts/kontikienchantedjf-webfont.woff - 304 Not Modified (3ms)
+
+
+Started GET "/assets/fonts/fanfarejf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:15:42 -0700
+Served asset /fonts/fanfarejf-webfont.woff - 304 Not Modified (1ms)
+
+
+Started POST "/rsvps" for 127.0.0.1 at 2013-09-04 22:16:05 -0700
+Processing by RsvpsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CLav0WB9kHVYV6j+2v0thKWoPku2CGv2yZkSclaN2qU=", "rsvp"=>{"nickname"=>"", "firstname1"=>"Crotch", "lastname1"=>"Rucker", "yes1"=>"0", "no1"=>"1", "firstname2"=>"", "lastname2"=>"", "yes2"=>"0", "no2"=>"0", "firstname3"=>"", "lastname3"=>"", "yes3"=>"0", "no3"=>"0", "firstname4"=>"", "lastname4"=>"", "yes4"=>"0", "no4"=>"0", "firstname5"=>"", "lastname5"=>"", "yes5"=>"0", "no5"=>"0", "email"=>"jazzqueenjessie@gmail.com", "phone"=>"(858) 205-9748", "notes"=>"hello!"}, "commit"=>"Submit"}
+Redirected to http://localhost:3000/wedding.html
+Completed 302 Found in 928ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/wedding.html" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Processing by StaticPagesController#wedding as HTML
+  Rendered static_pages/wedding.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wedding.css?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /wedding.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tree7.jpg" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /tree7.jpg - 200 OK (2ms)
+
+
+Started GET "/assets/vwrap.png" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /vwrap.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fonts/kontikienchantedjf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /fonts/kontikienchantedjf-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fonts/fanfarejf-webfont.woff" for 127.0.0.1 at 2013-09-04 22:16:06 -0700
+Served asset /fonts/fanfarejf-webfont.woff - 304 Not Modified (0ms)

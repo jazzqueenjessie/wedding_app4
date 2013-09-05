@@ -63,6 +63,7 @@ class Rsvp
         message = message + guest + "\n"
       end
     end
+    message = message + 'Contact email: ' + email + "\n" + 'Phone: ' + phone + "\n" + notes
 
     return message
   end
